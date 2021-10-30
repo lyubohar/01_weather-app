@@ -1,0 +1,17 @@
+[{
+    "region": "Sofia",
+    "temperature": "10° C"
+  },
+  {
+    "region": "Plovdiv",
+    "temperature": "15° C"
+  },
+  {
+    "region": "Varna",
+    "temperature": "20° C"
+  },
+  {
+    "region": "Ruse",
+    "temperature": "5° C"
+  }
+]

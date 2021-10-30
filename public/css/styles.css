@@ -1,0 +1,64 @@
+body {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-main form {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.container-main select {
+    margin-right: 5px;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;    
+}
+
+.container-main p {
+    padding-bottom: 20px;
+}
+
+.container-main a {
+    padding: 10px;
+}
+
+.container-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 100%;
+    max-height: 200px;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.container-main .message {
+    font-weight: bold;
+}
+
+.container-main .button {
+    height: 30px;
+    min-width: 100px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+}
+
+.container-main .button[disabled] {
+    color: gray;
+    cursor: default;
+}
