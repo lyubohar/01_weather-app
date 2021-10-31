@@ -13,7 +13,7 @@ selectElement.add(defaultOptionElement);
 fetch(jsonUrl)
     .then((response) => {
 
-            // Handle error accessing json file
+            // Handle error accessing the json file
             if (response.status !== 200) {
                 messageElement.textContent = 'Sorry, there was a problem accessing the database.'
                 inputElement.disabled = true;
